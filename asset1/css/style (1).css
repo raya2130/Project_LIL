@@ -1,0 +1,176 @@
+.navbar{
+    background-color: #77B0AA;
+    position: fixed;
+    top: 0;
+    height: 100px ;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+}
+
+.navbar-header{
+    position: relative;
+    left: 100px;
+    top: 12px;
+    text-shadow: 3px 2px 2px whitesmoke;
+}
+
+.navbar-li{
+    display: inline-block;
+    margin-left: 55px;
+    font-size: large;
+}
+
+.navbar-li:hover{
+    color: #E3FEF7;
+    cursor: grab;
+}
+
+.navbar-ul{
+    position: relative;
+    left: 600px;
+    bottom: 33px;
+}
+
+.btn{
+    position: absolute;
+    bottom: 37px;
+    right: 110px;
+    width: 10%;
+    height: 35px;
+    font-size: medium;
+    background-color: #E3FEF7;
+    border-radius: 12px;
+    border-color: rgb(3, 2, 2);
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn a:hover{
+    background-color: #003C43;
+    color: #E3FEF7;
+}
+
+.btn:hover{
+    background-color: #003C43;  
+}
+
+.img{
+    background-position:center;
+    background-size:cover;
+    width: max-content;
+    height: max-content;
+    position:fixed;
+    left: 0px;
+    top: 100px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    left: 35px;
+    color: #77B0AA;
+    font-size: medium;
+    margin: 0;
+    padding: 10px;
+    border-style:solid;
+    border-radius: 45px;
+    border-width: 2px;
+    border-color: #E3FEF7;
+    text-align: center;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+.login{
+    display: block;
+    align-items: start;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.login-doc{
+    border: 1px inset #77B0AA;
+    margin: 10px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 200px;
+    transition: width 2s;
+}
+.login-doc:hover{
+    width: 500px;
+    height: 200px;
+}
+
+.h1d{
+    text-align: center;
+}
+
+.dbtn a{
+    text-decoration: none;
+    color: black;
+}
+.dbtn{
+    width: 25%;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    border-radius: 10px;
+}
+
+#uname{
+    width: 200px;
+}
+#pass{
+    width: 200px;
+}
+.reg a{
+    text-decoration: none;
+    color: black;
+}
+.reg{
+    font-weight: lighter;
+    position: relative;
+    left: 100px;
+    background-color: #77B0AA;
+    width: max-content;
+}
+.predict{
+    border: 2px outset #77B0AA;
+    border-radius: 7px;
+    position: relative;
+    top: 250px;
+    left: 250px;
+    width: 35%;
+    background-image: url("/assets/img/imj.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image{
+    border: 1px solid #77B0AA;
+    border-radius: 4px;
+    margin: 5px;
+    padding: auto;
+    transition:  width 2s ease-in-out;
+}
+#image :hover{
+    width: 200px;
+}
+.title{
+    text-align: center;
+    color: #ffffff;
+}
+.cbtn{
+    width: 25%;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    border-radius: 10px;
+}
